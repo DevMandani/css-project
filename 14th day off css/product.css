@@ -4,6 +4,9 @@
     padding: 0;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 .container{
@@ -67,6 +70,7 @@ h2{
     text-align: center;
 }
 
+
 .About{
     height:400px;
     width:400px;
@@ -116,41 +120,115 @@ text-align: center;
     max-width:1320px;
     border:1px solid black;
     margin:auto;
-   
-    overflow: scroll;
+    scroll-behavior: smooth;
+    overflow:hidden;
     padding: 50px;
-    padding-top:100px ;
+    padding-top:150px ;
+    background-color: aliceblue;
   
    }
    .subboxes{
-    width:8000px;
+   
+    width:5200px;
   
-   animation: slider 10s infinite ease-in-out;
+   animation: slider 20s infinite ease-in-out;
     display:flex;
+    border-radius: 20%;
     
    }
    @keyframes slider {
-        from{
-            margin: 0px;
-        }
-        to{
-            margin-left: -8000px;
-        }
+    0%{
+        margin-left:0px;
+    }
+ 
+    25%{
+        margin-left:-1300px;
+    }
+ 
+    50%{
+        margin-left:-2600px;
+    }
+  
+    75%{
+        margin-left:-3900px;
+    }
+
+    100%{
+        margin-left:-5200px;
+    }
    }
 
   
    .ohterbox{
-    width:2000px;
+    
     padding: 10px 20px;
     height: 50vh;
     border:1px solid black;
    }
    .box1{
     border:1px solid black;
-   width:2000px;
-    height:30vh;
-    
+width:1300px;
+    height:50vh;
+    background-image: url(https://marketplace.canva.com/EAFcNL3I0E0/1/0/1600w/canva-red-yellow-simple-burger-promotion-banner-35BI-y4lfeM.jpg);
+    background-size:cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    }
+   .box2{
+    border:1px solid black;
+    width:1300px;
+        height:50vh;
+        background-image: url(https://thumbs.dreamstime.com/z/food-menu-banner-social-media-post-editable-templates-promotions-set-story-frames-layout-design-marketing-181309309.jpg);
+        background-size: cover;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   }
+   .box3{
+    border:1px solid black;
+    width:1300px;
+        height:50vh;
+    background-image: url(https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/07/pvr-twitter-image-1689248293.jpg);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-size: cover;
+   }
+   .box4{
+    border:1px solid black;
+    width:1300px;
+        height:50vh;
+    background-image: url(https://gumlet-images.assettype.com/afaqs%2F2023-10%2Fcc2335e0-a1dd-43b6-a193-3901616ebb53%2FWhopper_KV_JPG.jpg?format=webp&w=480&dpr=2.6);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-size: cover;
+   }
+   .link{
+    position: absolute;
+    top:67%;
+    height:20px;
+    left:50%;
+    width:100px;
+    transform: translate(-50%,-50%);
+  
+    bottom:0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ 
+
+   }
+
+   .link > a{
+
+    font-size: 70px;
+
+   }
+   .othera{
+    font-size: 50px;
+    letter-spacing: 12px;
+    text-decoration: none;
+
+ 
+    color:rgba(0, 0, 0, 0.596)
+   }
+
+   
   .navbar{
     max-width:1320px;
     height: fit-content;
@@ -216,7 +294,9 @@ gap:10px;
     font-size:30px;
     line-height: 3;
     text-align:end;
+    max-width: 1320px;
 }
+
 .fa-square-twitter{
     font-size:40px;
  background-color: #8364e2;
@@ -255,4 +335,71 @@ gap:10px;
     background-color: white;
     color:#8364e2;
 }
+.section{
+    height:400px;
+    max-width: 1320px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding:20px
 
+
+}
+.section1{
+    width:300px;
+    height:100%;  background-color:rgb(1, 1, 29);
+    border:1px solid white;
+    border-radius: 5%;
+
+
+}
+b1{
+    color:white;
+    text-align: center;
+   
+    padding:50px;
+    padding-top: 40px;
+    font-size: 20px;
+    align-items: center;
+    text-decoration: underline rgb(241, 147, 163);
+  
+
+}
+.otherfooter{
+    display: flex;
+    flex-wrap: wrap ;
+    max-width: 1320px;
+   height:100px;
+}
+ul{
+    color:white;
+    text-align: center;
+   list-style: none;
+    padding-top: 40px;
+    font-size: 20px;
+       
+}
+ul2{
+    color:white;
+    text-align: center;
+   
+    padding-top: 40px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.fa-brands fa-square-twitter{
+    text-align: end;
+    
+}
+.othericon{
+   font-size: 30px !important;
+    text-align:end !important;
+    color:white;
+    background-color: black;
+    border-radius: 25%;
+}
+
+.othericons{
+   
+    display: flex;
+    justify-content: center;
+}
