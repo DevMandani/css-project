@@ -1,0 +1,58 @@
+.container{
+    max-width: 1320px;
+    margin:auto;
+
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-evenly;
+}
+.product{
+  
+   max-width: 1320px; 
+ 
+   padding: 20px;
+    padding-bottom:30px;
+}
+.blog1{
+    height:470px;
+    width:300px;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: aliceblue;
+
+}
+img{
+    width:300px;
+}
+.one{
+    padding-left:15px;
+    font-size: 20px;
+    word-spacing: 1px;
+    
+}
+.one :hover{
+    color:blue;
+
+  }
+
+
+.text1{
+    padding-left: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.text2{
+    padding-left: 15px;
+    font-size: 15px;
+   
+}
+.two{
+    text-decoration: none;
+}
+.text2 :hover{
+    color: blue;
+}
