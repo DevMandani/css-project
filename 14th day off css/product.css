@@ -274,7 +274,7 @@ width:1300px;
 
 }
 .p1{
-    width:50%;
+max-width: 600px;
     height:100%;
     border: 1px solid black;
     text-align: center;
@@ -291,7 +291,7 @@ width:1300px;
 gap:10px;
 }
 .footer1{
-    font-size:30px;
+    font-size:calc(1vw + 20px);
     line-height: 3;
     text-align:end;
     max-width: 1320px;
@@ -336,16 +336,17 @@ gap:10px;
     color:#8364e2;
 }
 .section{
-    height:400px;
+
     max-width: 1320px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    padding:20px
+    padding:20px;
 
 
 }
 .section1{
     width:300px;
-    height:100%;  background-color:rgb(1, 1, 29);
+    height:400px; 
+     background-color:rgb(1, 1, 29);
     border:1px solid white;
     border-radius: 5%;
 
@@ -403,3 +404,65 @@ ul2{
     display: flex;
     justify-content: center;
 }
+.mainfooter{
+    max-width: 1320px;
+    margin: auto;
+}
+.othermain{
+    max-width: 1320px;
+    margin:auto;
+}
+
+
+.p1{
+    min-width:370px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.p2{
+    min-width:370px;
+    
+}
+.newbox{
+    display: block;
+    max-width: 1320px;
+    margin:auto;
+    overflow:hidden;
+    padding-top: 20px;
+}
+.newsubbox{
+    display:flex;
+   
+    padding-top: 50px;
+    padding-bottom:50px;
+    width:2400px;
+    animation: slider 10s infinite linear;
+
+   
+}
+@keyframes slider {
+   from{
+    margin-left: 0px;
+   }
+   to{
+    margin-left: -1200px;
+   }
+  
+    
+}
+.newitem{
+    position:relative;
+
+  
+    width:200px;
+    border:10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+}
+.details1{
+    width:100%;
+}
+
+
